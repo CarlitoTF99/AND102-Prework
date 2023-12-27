@@ -1,0 +1,27 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- The first gradient for purple to blue -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="#340161"
+                android:endColor="#005A8C"
+                android:type="linear"
+                />
+            <corners android:radius="0dp"/>
+        </shape>
+    </item>
+
+    <!-- The second gradient for the third color -->
+    <item android:left="30dp" android:right="30dp" android:top="40dp" android:bottom="4dp">
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="#53015C"
+                android:endColor="#02648F"
+                android:type="linear"
+                />
+            <corners android:radius="10dp"/>
+        </shape>
+    </item>
+
+</layer-list>

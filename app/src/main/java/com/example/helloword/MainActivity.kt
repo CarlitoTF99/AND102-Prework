@@ -5,6 +5,7 @@ import android.view.View
 import android.widget.Button
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.ContextCompat
 
 
 class MainActivity : AppCompatActivity() {
@@ -15,7 +16,9 @@ class MainActivity : AppCompatActivity() {
         var startButton = findViewById<Button>(R.id.helloword_button)
 
         startButton.setOnClickListener(View.OnClickListener { // Show a Toast when the button is clicked
-            Toast.makeText(this@MainActivity, "Hello Word!!", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this@MainActivity, "Hello to you too!", Toast.LENGTH_SHORT).show()
+
+
         })
     }
 }
